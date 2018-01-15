@@ -1,4 +1,4 @@
-var mermaidRegex = /^```mermaid((.*[\r\n]+)+?)?```$/im;
+var mermaidRegex = /^\s*```mermaid((.*[\r\n]+)+?)?```$/im;
 
 function processMermaidBlockList(page) {
 
