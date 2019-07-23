@@ -17,9 +17,6 @@ function processMermaidBlockList(page) {
 module.exports = {
   website: {
     assets: './dist',
-    css: [
-      'mermaid/mermaid.css'
-    ],
     js: [
       'book/plugin.js'
     ]
