@@ -15,7 +15,7 @@ require([
   gitbook.events.bind('page.change', function (page) {
     $('.lang-mermaid').each(function() {
       var svgCode = mermaid.render('mermaid-render-'+renderId++, this.innerText);
-      $(this).closest('pre').replaceWith(svgCode);
+      $(this).closest('pre').replaceWith('<div style="overflow-x:auto">'+svgCode+'</div>');
     })
   });
 });
