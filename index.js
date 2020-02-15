@@ -2,7 +2,7 @@ module.exports = {
   website: {
     assets: './dist',
     js: [
-      'mermaid.min.js',
+      'mermaid/mermaid.min.js',
       'plugin.js',
     ]
   }

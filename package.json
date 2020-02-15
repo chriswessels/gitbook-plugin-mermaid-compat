@@ -7,10 +7,7 @@
     "gitbook": "*"
   },
   "scripts": {
-    "clean": "rimraf dist",
-    "build": "npm run clean && npm run copy:assets && npm run copy:book",
-    "copy:assets": "mkdir -p dist/mermaid && cp ./node_modules/mermaid/dist/{mermaid.min.js,mermaid*.css} dist/mermaid",
-    "copy:book": "mkdir -p dist/book && cp -R book/ dist/book"
+    "postinstall": "mkdir -p dist/mermaid; cp ../mermaid/dist/mermaid.min.js dist/mermaid/"
   },
   "dependencies": {
     "mermaid": "^8.4.6"
