@@ -13,7 +13,7 @@
     "copy:book": "mkdir -p dist/book && cp -R book/ dist/book"
   },
   "dependencies": {
-    "mermaid": "^8.2.3"
+    "mermaid": "^8.4.6"
   },
   "devDependencies": {
     "rimraf": "^2.5.2"
