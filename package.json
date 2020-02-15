@@ -1,8 +1,8 @@
 {
-  "name": "gitbook-plugin-mermaid-gb3",
-  "description": "Plugin for GitBook 3 which renders Mermaid flow from markdown. Tries to work cross platform (windows/unix)",
+  "name": "gitbook-plugin-mermaid",
+  "description": "Plugin for GitBook 3 which renders Mermaid flow from markdown",
   "main": "index.js",
-  "version": "3.0.0",
+  "version": "1.0.0",
   "engines": {
     "gitbook": "*"
   },
@@ -12,14 +12,11 @@
   "dependencies": {
     "mermaid": "^8.4.6"
   },
-  "devDependencies": {
-    "rimraf": "^2.5.2"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chriswessels/gitbook-plugin-mermaid-gb3.git"
+    "url": "git+https://github.com/JarvusInnovations/gitbook-plugin-mermaid.git"
   },
-  "author": "",
-  "license": "ISC",
-  "homepage": "https://github.com/chriswessels/gitbook-plugin-mermaid-gb3#readme"
+  "author": "Chris Alfano <chris@jarv.us>",
+  "license": "MIT",
+  "homepage": "https://github.com/JarvusInnovations/gitbook-plugin-mermaid"
 }
